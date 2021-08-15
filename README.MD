@@ -26,7 +26,7 @@ Maybe even discuss it in our technical interview<br>
 To run the tests use `npm run test`
 
 ## Limitations
-Due to the limited time I had for this project the app has the following limitations that should have been addressed in a real world app
+Due to the limited time I had for this project, the app has the following limitations that should have been addressed in a real world app
 1. Missing rate limit mechanism - to adhere to crypto's compare API rate limit 
 2. Suboptimal error handling for crypto compare errors   
 3. Using multiple calls for crypto compare historical prices API - couldn't find a multi price API for this + it made the exercise a bit more interesting      
