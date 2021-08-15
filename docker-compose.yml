@@ -1,20 +1,7 @@
-version: "2"
+version: "3.7"
 services:
-  app:
+  coins-price-compare:
     build: .
     ports:
       - "3000:3000"
     env_file: .env
-    environment:
-      DATABASE_URL: mongodb://mongo:27017/db
-    depends_on:
-      - mongo
-  mongo:
-    container_name: mongo
-    image: mongo:4.2.15
-    ports:
-      - "27017:27017"
-    volumes:
-      - mongodb:/data/db
-volumes:
-  mongodb:
