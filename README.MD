@@ -17,6 +17,7 @@ docker compose up
 ```
 or using the dev npm script to allow hot reloading (using nodemon)
 ```
+npm install
 npm run dev
 ```
 
