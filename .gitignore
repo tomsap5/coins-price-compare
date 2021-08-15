@@ -1,0 +1,6 @@
+.env*
+build/
+node_modules/
+.idea/
+config/local.js
+coverage/
