@@ -19,7 +19,6 @@ or using the dev npm script to allow hot reloading (using nodemon)
 ```
 npm run dev
 ```
-use http://localhost:3000/heartbeat to verify the server is
 
 ## Testing
 Even though unit testing might be sufficient for this app and a bit simpler, I thought using integration tests would give me a chance to show a glimpse of how I believe such tests should be written.<br/>
